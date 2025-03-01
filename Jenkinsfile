@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Checkout') {
             steps {
-                git 'https://github.com/jenkins-docs/simple-java-maven-app.git'
+                git 'https://github.com/yuluka/simple-java-maven-app.git'
             }
         }
         stage('Build') {
